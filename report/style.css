@@ -1,15 +1,26 @@
 
 * {
     box-sizing: border-box;
+    box-shadow: #ff671f;
   }
   
   body {
     font-family: Arial;
     padding: 20px;
-    background: #f1f1f1;
+    background: #121212;
+    color: aliceblue;
+    border-color: #ff671f;
   }
+
+  h2{
+    color: #ff671f;
+  }
+  h3{
+    color: #ff671f;  
+  }
+
   p {
-    font-size: 0.875em; /* 14px/16=0.875em */
+    font-size: 18px; /* 14px/16=0.875em */
   }
   
   /* Header/Blog Title */
@@ -17,7 +28,7 @@
     padding: 30px;
     font-size: 40px;
     text-align: center;
-    background: white;
+    background: black;
   }
   
   /* Create two unequal columns that floats next to each other */
@@ -32,23 +43,18 @@
     justify-items: center;
   }
   
-  /* Right column */
-  /* .rightcolumn {
-    float: left;
-    width: 25%;
-    padding-left: 20px;
-  }
-   */
+
   /* Fake image */
   .fakeimg {
-    background-color: #aaa;
+    background-color: orange;
     width: 100%;
     padding: 20px;
   }
   
   /* Add a card effect for articles */
   .card {
-    background-color: white;
+    background-color: #121212;
+    color: #ddd;
     padding: 20px;
     margin-top: 20px;
   }
@@ -64,7 +70,7 @@
   .footer {
     padding: 20px;
     text-align: center;
-    background: #ddd;
+    background: #121212;
     margin-top: 20px;
   }
   
