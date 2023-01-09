@@ -11,6 +11,10 @@
     color: aliceblue;
     border-color: #ff671f;
   }
+  img{
+    width: 400px; 
+    height: 400px;
+  }
 
   h2{
     color: #ff671f;
